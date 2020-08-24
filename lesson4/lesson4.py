@@ -1,4 +1,4 @@
- for i in range(0,8,2): # range (1,2,3) 1 - начало 2 - конец 3 - шаг
+ # for i in range(0,8,2): # range (1,2,3) 1 - начало 2 - конец 3 - шаг
 #     print(i)
 #abs(-2)  #  вывод абсолютной величины
 # print(max([1,2,3,4,5])) # максимальный элемент последовательности, аналогично работает min() только в обратную сторону
@@ -71,23 +71,23 @@
 # print(list(map(lambda x: x*x,[2,5,12,-2])))
 # map - применяет функцию к каждому элементу последовательности, результат функции возвращает в виде итератора
 
-print(list(filter(lambda x: x > 5,[2,10,-10,8,2,0,14] )))
-print(list(filter(len,["",'not null','bla',"",'10'])))
-import os
-path = 'files/text.txt'
-path = os.path.join
-f = open(path, 'r', encoding='UTF-8')
-# считываем всю информациюиз файла в виде списка строк
-print(f.readlines())
-f.close()
-Baldddej
-path = os.path.join('files',;'text.txt')
-f = open(path,'r',encoding='UTF-8')
-wanted_symbol = "+"
-for line in f:
-    if wanted_symbol in line:
-        print(line)
-        break
-
-with open(path,'r', encoding='UTF-8') as f:
-    print(f.readlines())
+# print(list(filter(lambda x: x > 5,[2,10,-10,8,2,0,14] )))
+# print(list(filter(len,["",'not null','bla',"",'10'])))
+# import os
+# path = 'files/text.txt'
+# path = os.path.join
+# f = open(path, 'r', encoding='UTF-8')
+# # считываем всю информациюиз файла в виде списка строк
+# print(f.readlines())
+# f.close()
+# Baldddej
+# path = os.path.join('files',;'text.txt')
+# f = open(path,'r',encoding='UTF-8')
+# wanted_symbol = "+"
+# for line in f:
+#     if wanted_symbol in line:
+#         print(line)
+#         break
+#
+# with open(path,'r', encoding='UTF-8') as f:
+#     print(f.readlines())
